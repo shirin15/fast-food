@@ -1,0 +1,175 @@
+.logo, .logos {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #1F1D2B;
+  background: #252836;
+}
+
+.d-flex {
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.btn3, .btn2 {
+  height: 34px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA7C69;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 140%;
+  color: #E0E6E9;
+}
+
+.input {
+  width: 225px;
+  height: 50px;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  order: 1;
+  flex-grow: 0;
+  color: #ABBBC2;
+}
+
+#Hot\ Dishes, #Cold\ Dishes, #Appetizer, #Soup, #Grill, #Dessert {
+  opacity: 0;
+}
+
+#Dessert:checked ~ .content1 {
+  display: none;
+}
+
+#Dessert:checked ~ .content1 {
+  display: flex;
+}
+
+.content2 {
+  display: none;
+}
+
+.label-logo {
+  text-align: center;
+}
+
+.logos {
+  margin: 5px 25px;
+}
+
+.logos:hover {
+  color: #b02a37;
+}
+
+.logo:hover {
+  color: #b02a37;
+}
+
+.mini-title {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.search {
+  width: 100px;
+  height: 48px;
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.img1 {
+  width: 192px;
+  height: 260px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.content {
+  display: flex;
+}
+
+.select {
+  width: 100px;
+  height: 50px;
+}
+
+.subject {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.buttons {
+  display: flex;
+  margin: 10px 15px;
+}
+
+.btn1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 86px;
+  height: 34px;
+  background: #EA7C69;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: none;
+}
+
+.btn2 {
+  width: 78px;
+  margin: 10px 30px;
+}
+
+.btn3 {
+  width: 94px;
+  margin: 10px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
